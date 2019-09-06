@@ -1,11 +1,16 @@
 /*////////////// Fonts //////////////*/
+
 @font-face {
 	font-family: 'Baskerville';
 	src: url(../fonts/Baskerville.ttc);
 }
-/* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
 
 body {
 	background: #F3EBE9;
@@ -44,20 +49,20 @@ p  {
 	font-size: 0.8em;
 }
 
-/* Write all remaining styles here */
+/*////////// Section Styles //////////*/
 
 header a {
 	color: rgb(152,173,166);
 	text-decoration: none;
 }
 
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
 #featured a {
 	color: #1783bb;
 	text-decoration: none;
-}
-
-#featured img {
-	border: 5px rgb(152,173,166) solid;
 }
 
 #press {
