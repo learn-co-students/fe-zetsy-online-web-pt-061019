@@ -1,6 +1,8 @@
 /*////////////// Fonts //////////////*/
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
 /* link the web font used for the level 1 heading here */
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+
 /*////////// Global Styles //////////*/
 
 body {
@@ -17,6 +19,7 @@ body {
 }
 
 /* Write all remaining styles here */
+
 h1 {
   color: #98ADA6;
   font-size: 5em;
@@ -27,7 +30,7 @@ h1 {
 }
 
 hr {
-  color: #CCC;
+  color: #CCCCCC;
 }
 
 h2 {
