@@ -7,6 +7,11 @@
 
 /*////////// Global Styles //////////*/
 
+* {
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
@@ -44,11 +49,6 @@ p {
     font-size: 0.8em;
 }
 
-footer {
-    text-align: right;
-    background: #fff;
-}
-
 /* Write all remaining styles here */
 
 header a {
@@ -72,4 +72,9 @@ header a {
 #press img {
     border: 5px #ccc solid;
     padding: 1px;
+}
+
+footer {
+    text-align: right;
+    background: #fff;
 }
