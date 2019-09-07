@@ -8,7 +8,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	/* font-family: 'Times New Roman', serif;  */
 }
 
 .wrapper {
@@ -28,12 +28,15 @@ header a {
 h1 {
   color: #98ADA6;
   font-size: 5em;
-  font-family: 80px 'Baskerville', serif;
   font-weight: 700;
   padding: 10px 0;
   margin: 0 0 5px;
   padding-bottom: 10px;
+  font-family: "Baskerville";
+  src: url("../fonts/Baskerville.ttc");
+  
 }
+
 
 hr {
   color: #CCCCCC;
@@ -65,13 +68,14 @@ h2 {
   }
   
 a img {
-  transition: border 0.5s ease;
-  border: 5px solid #CCC;
+  transition: background-color 0.5s ease;
+
 }
 
-a img:hover {
-  border: 5px solid #6F7F7A;
+#press img:hover {
+  background-color: green;
 }
+
 
 footer p.small {
   text-align: right;
